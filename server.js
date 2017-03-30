@@ -11,7 +11,7 @@ app.use(express.static(__dirname + '/static'))
 
 app.get('/', function (req, res, next) {
   try {
-    var html = template({ title: 'Home' })
+    var html = template({ title: 'Home', hostname: hostname })
     res.send(html)
   } catch (e) {
     next(e)
