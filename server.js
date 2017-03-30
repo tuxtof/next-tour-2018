@@ -3,6 +3,9 @@ var express = require('express')
   , app = express()
   , template = require('jade').compileFile(__dirname + '/source/templates/homepage.jade')
 
+var os = require("os")
+var hostname = os.hostname()
+
 app.use(logger('dev'))
 app.use(express.static(__dirname + '/static'))
 
