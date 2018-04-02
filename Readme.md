@@ -1,6 +1,6 @@
-# Basic Express Site (2018 Edition)
+# Nutanix .Next Tour App site (2018 Edition)
 
-A simple website in node js to accompany a blog post.
+A simple website in node js to demonstrate Calm blueprint.
 
 ## Setup
 
